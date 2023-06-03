@@ -131,7 +131,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Atlas_0
+      name: wall_1
       rect:
         serializedVersion: 2
         x: 0
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_1
+      name: wall_4
       rect:
         serializedVersion: 2
         x: 16
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_2
+      name: wall_7
       rect:
         serializedVersion: 2
         x: 32
@@ -572,7 +572,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_21
+      name: wall_2
       rect:
         serializedVersion: 2
         x: 0
@@ -593,7 +593,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_22
+      name: wall_5
       rect:
         serializedVersion: 2
         x: 16
@@ -614,7 +614,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_23
+      name: wall_8
       rect:
         serializedVersion: 2
         x: 32
@@ -677,7 +677,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_26
+      name: stairs_1
       rect:
         serializedVersion: 2
         x: 80
@@ -698,7 +698,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_27
+      name: stairs_3
       rect:
         serializedVersion: 2
         x: 96
@@ -1139,7 +1139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_48
+      name: wall_3
       rect:
         serializedVersion: 2
         x: 0
@@ -1160,7 +1160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_49
+      name: wall_6
       rect:
         serializedVersion: 2
         x: 16
@@ -1181,7 +1181,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_50
+      name: wall_9
       rect:
         serializedVersion: 2
         x: 32
@@ -1244,7 +1244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_53
+      name: stairs_2
       rect:
         serializedVersion: 2
         x: 80
@@ -1265,7 +1265,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_54
+      name: stairs_4
       rect:
         serializedVersion: 2
         x: 96
@@ -1685,7 +1685,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_74
+      name: healingFountain_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1727,7 +1727,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor_0
+      name: floor_0
       rect:
         serializedVersion: 2
         x: 32
@@ -1811,7 +1811,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_80
+      name: pillar_1
       rect:
         serializedVersion: 2
         x: 96
@@ -2105,7 +2105,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_94
+      name: healingFountain_1
       rect:
         serializedVersion: 2
         x: 0
@@ -2231,7 +2231,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_100
+      name: pillar_2
       rect:
         serializedVersion: 2
         x: 96
@@ -2546,7 +2546,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_115
+      name: healingFountain_2
       rect:
         serializedVersion: 2
         x: 0
@@ -2672,7 +2672,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_121
+      name: pillar_3
       rect:
         serializedVersion: 2
         x: 96
@@ -3092,7 +3092,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_141
+      name: floor_1
       rect:
         serializedVersion: 2
         x: 0
@@ -3113,7 +3113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_142
+      name: floor_4
       rect:
         serializedVersion: 2
         x: 16
@@ -3134,7 +3134,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_143
+      name: floor_7
       rect:
         serializedVersion: 2
         x: 32
@@ -3155,7 +3155,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_144
+      name: floor_10
       rect:
         serializedVersion: 2
         x: 48
@@ -3176,7 +3176,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wall_0
+      name: wall_0
       rect:
         serializedVersion: 2
         x: 64
@@ -3197,7 +3197,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_146
+      name: crate_1
       rect:
         serializedVersion: 2
         x: 80
@@ -3218,7 +3218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_147
+      name: crate_3
       rect:
         serializedVersion: 2
         x: 96
@@ -3617,7 +3617,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_167
+      name: floor_2
       rect:
         serializedVersion: 2
         x: 0
@@ -3638,7 +3638,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_168
+      name: floor_5
       rect:
         serializedVersion: 2
         x: 16
@@ -3659,7 +3659,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_169
+      name: floor_8
       rect:
         serializedVersion: 2
         x: 32
@@ -3680,7 +3680,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_170
+      name: floor_11
       rect:
         serializedVersion: 2
         x: 48
@@ -3722,7 +3722,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_172
+      name: crate_2
       rect:
         serializedVersion: 2
         x: 80
@@ -3743,7 +3743,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_173
+      name: crate_4
       rect:
         serializedVersion: 2
         x: 96
@@ -3770,7 +3770,7 @@ TextureImporter:
         x: 112
         y: 128
         width: 16
-        height: 19
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4163,7 +4163,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_193
+      name: floor_3
       rect:
         serializedVersion: 2
         x: 0
@@ -4184,7 +4184,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_194
+      name: floor_6
       rect:
         serializedVersion: 2
         x: 16
@@ -4205,7 +4205,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_195
+      name: floor_9
       rect:
         serializedVersion: 2
         x: 32
@@ -4226,7 +4226,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_196
+      name: floor_12
       rect:
         serializedVersion: 2
         x: 48
@@ -4715,7 +4715,7 @@ TextureImporter:
         x: 96
         y: 96
         width: 16
-        height: 21
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4856,13 +4856,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_235
+      name: torch_0
       rect:
         serializedVersion: 2
-        x: 112
-        y: 80
-        width: 16
-        height: 23
+        x: 116
+        y: 82
+        width: 8
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4877,13 +4877,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_236
+      name: torch_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 80
-        width: 16
-        height: 23
+        x: 132
+        y: 82
+        width: 8
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4898,13 +4898,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_237
+      name: torch_2
       rect:
         serializedVersion: 2
-        x: 144
-        y: 80
-        width: 16
-        height: 23
+        x: 148
+        y: 82
+        width: 8
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4919,13 +4919,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_238
+      name: torch_3
       rect:
         serializedVersion: 2
-        x: 160
-        y: 80
-        width: 16
-        height: 23
+        x: 164
+        y: 82
+        width: 8
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4940,13 +4940,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_239
+      name: torch_4
       rect:
         serializedVersion: 2
-        x: 176
-        y: 80
-        width: 16
-        height: 23
+        x: 180
+        y: 82
+        width: 8
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4961,13 +4961,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_240
+      name: torch_5
       rect:
         serializedVersion: 2
-        x: 192
-        y: 80
-        width: 16
-        height: 23
+        x: 196
+        y: 82
+        width: 8
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4982,13 +4982,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_241
+      name: torch_6
       rect:
         serializedVersion: 2
-        x: 208
-        y: 80
-        width: 16
-        height: 23
+        x: 212
+        y: 82
+        width: 8
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5003,13 +5003,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_242
+      name: torch_7
       rect:
         serializedVersion: 2
-        x: 224
-        y: 80
-        width: 16
-        height: 23
+        x: 228
+        y: 82
+        width: 8
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5024,13 +5024,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_243
+      name: torch_8
       rect:
         serializedVersion: 2
-        x: 240
-        y: 80
-        width: 16
-        height: 23
+        x: 244
+        y: 82
+        width: 8
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5318,7 +5318,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_257
+      name: pillar_4
       rect:
         serializedVersion: 2
         x: 208
@@ -5339,7 +5339,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_258
+      name: chest_0
       rect:
         serializedVersion: 2
         x: 224
@@ -5654,7 +5654,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_273
+      name: pillar_5
       rect:
         serializedVersion: 2
         x: 208
@@ -5675,7 +5675,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_274
+      name: chest_1
       rect:
         serializedVersion: 2
         x: 224
@@ -5969,7 +5969,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_288
+      name: pillar_6
       rect:
         serializedVersion: 2
         x: 208
@@ -5990,7 +5990,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_289
+      name: chest_2
       rect:
         serializedVersion: 2
         x: 224
@@ -6451,6 +6451,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713add79b86b8a44fbd561d2e884db02
+      internalID: -551618403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648cc14b17112bc4e827be9f2107141b
+      internalID: -1337106869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -6462,10 +6504,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Atlas_0: 1059377176
-      Atlas_1: 1678226479
+      Atlas_0: -551618403
+      Atlas_1: -1337106869
       Atlas_10: -150685617
-      Atlas_100: 1960641447
       Atlas_101: -1629020076
       Atlas_102: -1537622259
       Atlas_103: 1508629509
@@ -6481,14 +6522,12 @@ TextureImporter:
       Atlas_112: 798186983
       Atlas_113: 168630891
       Atlas_114: -1304532251
-      Atlas_115: 3247579
       Atlas_116: 520761508
       Atlas_117: 591944625
       Atlas_118: 1928487206
       Atlas_119: 1445426651
       Atlas_12: -1310227135
       Atlas_120: -1534864343
-      Atlas_121: 1460543118
       Atlas_122: 730663299
       Atlas_123: -471103636
       Atlas_124: -835915660
@@ -6510,12 +6549,6 @@ TextureImporter:
       Atlas_139: 1917815690
       Atlas_14: -1963478542
       Atlas_140: 1368093631
-      Atlas_141: -1867043762
-      Atlas_142: -934753058
-      Atlas_143: 880053441
-      Atlas_144: -773709723
-      Atlas_146: 1654759030
-      Atlas_147: 114735160
       Atlas_148: -251777159
       Atlas_149: 1351195849
       Atlas_15: -555624735
@@ -6537,14 +6570,8 @@ TextureImporter:
       Atlas_164: 103333403
       Atlas_165: 548444217
       Atlas_166: 301714948
-      Atlas_167: 652443147
-      Atlas_168: -1088038414
-      Atlas_169: 228229104
       Atlas_17: 855740349
-      Atlas_170: 882914887
       Atlas_171: -847418274
-      Atlas_172: 1118860512
-      Atlas_173: -1661637620
       Atlas_174: -193142304
       Atlas_175: 2134126513
       Atlas_176: 117444303
@@ -6566,14 +6593,9 @@ TextureImporter:
       Atlas_190: -1005998715
       Atlas_191: -368213936
       Atlas_192: 1009845398
-      Atlas_193: 2053956023
-      Atlas_194: 291234708
-      Atlas_195: 1297848203
-      Atlas_196: 1488533727
       Atlas_197: -1109401537
       Atlas_198: 2096807224
       Atlas_199: -2509941
-      Atlas_2: -334478595
       Atlas_20: 2065326949
       Atlas_200: 1541851392
       Atlas_201: 1239380365
@@ -6585,7 +6607,6 @@ TextureImporter:
       Atlas_207: 395038335
       Atlas_208: 1823225003
       Atlas_209: 50376681
-      Atlas_21: 2110784560
       Atlas_210: -1075877702
       Atlas_211: 53281158
       Atlas_212: 1291845776
@@ -6596,7 +6617,6 @@ TextureImporter:
       Atlas_217: -213255052
       Atlas_218: -2044915710
       Atlas_219: 307567447
-      Atlas_22: 1349315517
       Atlas_220: -311966095
       Atlas_221: -1193520273
       Atlas_222: -1532962584
@@ -6607,22 +6627,12 @@ TextureImporter:
       Atlas_227: 41513813
       Atlas_228: -1811315960
       Atlas_229: -1486890374
-      Atlas_23: 1621058666
       Atlas_230: -21516515
       Atlas_231: 1505414309
       Atlas_232: -172614045
       Atlas_233: 737842640
       Atlas_234: 1112869857
-      Atlas_235: -1748855165
-      Atlas_236: -1772600660
-      Atlas_237: 994184969
-      Atlas_238: -2131458777
-      Atlas_239: -1636970828
       Atlas_24: 1902834254
-      Atlas_240: -2017899101
-      Atlas_241: -1816404358
-      Atlas_242: 1839235161
-      Atlas_243: -379544764
       Atlas_244: 734763414
       Atlas_245: -626497172
       Atlas_246: -1470973507
@@ -6637,10 +6647,7 @@ TextureImporter:
       Atlas_254: -994123327
       Atlas_255: 205334811
       Atlas_256: 2099097337
-      Atlas_257: -1873943102
-      Atlas_258: 1190103745
       Atlas_259: 1549637520
-      Atlas_26: -1943498780
       Atlas_260: 589733139
       Atlas_261: 171273758
       Atlas_262: -1167129200
@@ -6651,12 +6658,9 @@ TextureImporter:
       Atlas_267: -220316486
       Atlas_268: -461242489
       Atlas_269: 1041134213
-      Atlas_27: 663669299
       Atlas_270: 390194506
       Atlas_271: 779908796
       Atlas_272: 1287510403
-      Atlas_273: 1831274685
-      Atlas_274: 335125226
       Atlas_275: -584105222
       Atlas_276: -100619825
       Atlas_277: 1098698590
@@ -6671,8 +6675,6 @@ TextureImporter:
       Atlas_285: -1047333687
       Atlas_286: -37516662
       Atlas_287: 2028844405
-      Atlas_288: 1456728473
-      Atlas_289: -1174867956
       Atlas_29: 1450391675
       Atlas_290: 57288760
       Atlas_291: -593434866
@@ -6717,14 +6719,9 @@ TextureImporter:
       Atlas_45: -417584432
       Atlas_46: -1315246057
       Atlas_47: 2114522903
-      Atlas_48: -1604383030
-      Atlas_49: 1956793745
       Atlas_5: -2125662015
-      Atlas_50: 230360422
       Atlas_51: 284112320
       Atlas_52: -158659394
-      Atlas_53: 698017975
-      Atlas_54: -721823515
       Atlas_55: -1041221832
       Atlas_56: -457643672
       Atlas_57: 416301497
@@ -6746,13 +6743,11 @@ TextureImporter:
       Atlas_71: -461212037
       Atlas_72: -1943070009
       Atlas_73: 1653937239
-      Atlas_74: 1077077233
       Atlas_75: -891641451
       Atlas_77: -1271645724
       Atlas_78: -29919740
       Atlas_79: -585658782
       Atlas_8: 1187428192
-      Atlas_80: 1513168237
       Atlas_81: -611158093
       Atlas_82: 46480378
       Atlas_83: 500856598
@@ -6767,16 +6762,65 @@ TextureImporter:
       Atlas_91: 1943126328
       Atlas_92: -344713554
       Atlas_93: -383678409
-      Atlas_94: -1529998400
       Atlas_95: -693842738
       Atlas_96: 175481245
       Atlas_97: -1283525437
       Atlas_98: -213793853
       Atlas_99: 1694592806
-      Floor_0: 136423297
-      Wall_0: 1205663955
+      chest_0: 1190103745
+      chest_1: 335125226
+      chest_2: -1174867956
+      crate_1: 1654759030
+      crate_2: 1118860512
+      crate_3: 114735160
+      crate_4: -1661637620
+      floor_0: 136423297
+      floor_1: -1867043762
+      floor_10: -773709723
+      floor_11: 882914887
+      floor_12: 1488533727
+      floor_2: 652443147
+      floor_3: 2053956023
+      floor_4: -934753058
+      floor_5: -1088038414
+      floor_6: 291234708
+      floor_7: 880053441
+      floor_8: 228229104
+      floor_9: 1297848203
+      healingFountain_0: 1077077233
+      healingFountain_1: -1529998400
+      healingFountain_2: 3247579
+      pillar_1: 1513168237
+      pillar_2: 1960641447
+      pillar_3: 1460543118
+      pillar_4: -1873943102
+      pillar_5: 1831274685
+      pillar_6: 1456728473
       player_0: 422314685
       player_1: 167189345
+      stairs_1: -1943498780
+      stairs_2: 698017975
+      stairs_3: 663669299
+      stairs_4: -721823515
+      torch_0: -1748855165
+      torch_1: -1772600660
+      torch_2: 994184969
+      torch_3: -2131458777
+      torch_4: -1636970828
+      torch_5: -2017899101
+      torch_6: -1816404358
+      torch_7: 1839235161
+      torch_8: -379544764
+      wall_0: 1205663955
+      wall_1: 1059377176
+      wall_2: 2110784560
+      wall_3: -1604383030
+      wall_4: 1678226479
+      wall_5: 1349315517
+      wall_6: 1956793745
+      wall_7: -334478595
+      wall_8: 1621058666
+      wall_9: 230360422
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
