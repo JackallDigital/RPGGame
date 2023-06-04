@@ -11,7 +11,7 @@ public class Chest : Collectable
         if(!collected) {
             collected = true;
             GetComponent<SpriteRenderer>().sprite = emptyChest;
-            Debug.Log("Grant "+ coinAmount + " coins!");
+            GameManager.instance.ShowText("+" + coinAmount + " coins!", 20, Color.yellow, transform.position, Vector3.up * 30, 1.2f);
         }
 
 
