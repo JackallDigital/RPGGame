@@ -5,21 +5,26 @@ using UnityEngine;
 public class Weapon : Collidable
 {
     //Damage structure
-    public int damagePoint = 0;
-    public float pushForce = 2.0f;
+    public int[] damagePoint = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 };
+    public float[] pushForce = { 2f, 2.2f, 2.4f, 2.6f, 2.8f, 2f, 2.2f, 2.4f, 2.6f, 2f, 2.2f, 2.4f, 2.6f, 3f, 3f, 3f, 3f };
 
     //Upgrade section
     public int weaponLevel = 0;
     private SpriteRenderer spriteRenderer;
 
     //Swing weapon
+    private Animator animatorController;
     private float cooldown = 0.5f;
     private float lastSwing;
+
+    protected void Awake() {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
     protected override void Start() {
         base.Start();
 
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        animatorController = GetComponent<Animator>();
     }
 
     protected override void Update() {
@@ -40,9 +45,9 @@ public class Weapon : Collidable
 
             //create a new damage object, then we'll send that to the figher we've hit
             Damage dmg = new Damage {
-                damageAmount = damagePoint,
+                damageAmount = damagePoint[weaponLevel],
                 origin = transform.position,
-                pushForce = pushForce,
+                pushForce = pushForce[weaponLevel],
             };
 
 
@@ -51,6 +56,16 @@ public class Weapon : Collidable
     }
 
     private void Swing() {
-        Debug.Log("Swing weapon");
+        animatorController.SetTrigger("Swing");
+    }
+
+    public void UpgradeWeapon() {
+        weaponLevel++;
+        spriteRenderer.sprite = GameManager.instance.weaponSprites[weaponLevel];
+    }
+
+    public void SetWeaponLevel(int level) {
+        weaponLevel = level;
+        spriteRenderer.sprite = GameManager.instance.weaponSprites[weaponLevel];
     }
 }
