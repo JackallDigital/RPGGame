@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     private void Awake() {
         if(GameManager.instance != null) {
             Destroy(gameObject);
+            Destroy(player.gameObject);
+            Destroy(floatingTextManager.gameObject);
             return;
         }
 
@@ -26,6 +28,7 @@ public class GameManager : MonoBehaviour
     public List<Sprite> weaponSprites;
     public List<int> weaponPrices = new List<int> { 100, 200, 300, 400, 500, 1000, 1200, 1400, 1600, 1800, 3000, 3500, 4000, 8000, 16000, 50000};
     public List<int> experienceTable;
+    public List<string> keyInInventory;
 
     //References
     public Player player;
@@ -116,6 +119,7 @@ public class GameManager : MonoBehaviour
 
     //Load state
     public void LoadState(Scene s, LoadSceneMode mode) {
+        Debug.Log("Load state");
         //if we don't have a save state return
         if (!PlayerPrefs.HasKey("SaveState")) {
             return;
@@ -134,6 +138,8 @@ public class GameManager : MonoBehaviour
 
         //Weapon
         weapon.SetWeaponLevel(int.Parse(data[3]));
-        Debug.Log("Load state");
+
+        player.transform.position = GameObject.Find("SpawnPosition").transform.position;
+
     }
 }

@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 99
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -467,7 +467,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_16
+      name: wall_outer_0
       rect:
         serializedVersion: 2
         x: 256
@@ -488,7 +488,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_17
+      name: wall_outer_17
       rect:
         serializedVersion: 2
         x: 272
@@ -509,7 +509,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_18
+      name: wall_outer_5
       rect:
         serializedVersion: 2
         x: 288
@@ -530,7 +530,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_19
+      name: wall_outer_9
       rect:
         serializedVersion: 2
         x: 304
@@ -551,7 +551,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_20
+      name: wall_outer_12
       rect:
         serializedVersion: 2
         x: 320
@@ -782,7 +782,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_37
+      name: wall_outer_1
       rect:
         serializedVersion: 2
         x: 256
@@ -803,7 +803,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_38
+      name: wall_outer_18
       rect:
         serializedVersion: 2
         x: 272
@@ -824,7 +824,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_39
+      name: wall_outer_6
       rect:
         serializedVersion: 2
         x: 288
@@ -845,7 +845,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_40
+      name: wall_outer_10
       rect:
         serializedVersion: 2
         x: 304
@@ -866,7 +866,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_41
+      name: wall_outer_13
       rect:
         serializedVersion: 2
         x: 320
@@ -887,7 +887,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_42
+      name: door_0
       rect:
         serializedVersion: 2
         x: 352
@@ -908,7 +908,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_43
+      name: door_4
       rect:
         serializedVersion: 2
         x: 368
@@ -929,28 +929,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_44
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 224
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e720bdb33d42a524bae39bed7a02d919
-      internalID: 111407093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Atlas_45
+      name: door_2
       rect:
         serializedVersion: 2
         x: 400
@@ -971,7 +950,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_46
+      name: door_8
       rect:
         serializedVersion: 2
         x: 432
@@ -987,27 +966,6 @@ TextureImporter:
       bones: []
       spriteID: 5795414ef75572d4d81be98b860a9464
       internalID: -1315246057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Atlas_47
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 224
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20bcc472b30464d429e4ad9742059536
-      internalID: 2114522903
       vertices: []
       indices: 
       edges: []
@@ -1160,7 +1118,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_64
+      name: wall_outer_3
       rect:
         serializedVersion: 2
         x: 256
@@ -1181,7 +1139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_65
+      name: wall_outer_7
       rect:
         serializedVersion: 2
         x: 288
@@ -1202,7 +1160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_66
+      name: wall_outer_11
       rect:
         serializedVersion: 2
         x: 304
@@ -1223,7 +1181,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_67
+      name: wall_outer_14
       rect:
         serializedVersion: 2
         x: 320
@@ -1244,7 +1202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_68
+      name: door_1
       rect:
         serializedVersion: 2
         x: 352
@@ -1265,49 +1223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_69
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 208
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2a4a6ceb90e02440957031fd9c9cbdd
-      internalID: 627552569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Atlas_70
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 208
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87839c6c4bbc0084a99dde4185fafb26
-      internalID: -1859012682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Atlas_71
+      name: door_3
       rect:
         serializedVersion: 2
         x: 400
@@ -1323,48 +1239,6 @@ TextureImporter:
       bones: []
       spriteID: 2ac58c276c7a26145a4e9356eaae5049
       internalID: -461212037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Atlas_72
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 208
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eddd200f4f360dc4f8e81c22684c1b2b
-      internalID: -1943070009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Atlas_73
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 208
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b93ab88805f42324f8e5ba95b0dea895
-      internalID: 1653937239
       vertices: []
       indices: 
       edges: []
@@ -1538,7 +1412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_90
+      name: wall_outer_4
       rect:
         serializedVersion: 2
         x: 256
@@ -1559,7 +1433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_91
+      name: wall_outer_8
       rect:
         serializedVersion: 2
         x: 288
@@ -1580,7 +1454,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_92
+      name: wall_outer_16
       rect:
         serializedVersion: 2
         x: 304
@@ -1601,7 +1475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_93
+      name: wall_outer_15
       rect:
         serializedVersion: 2
         x: 320
@@ -1664,7 +1538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_96
+      name: manaFountain_1
       rect:
         serializedVersion: 2
         x: 32
@@ -2042,7 +1916,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_117
+      name: manaFountain_2
       rect:
         serializedVersion: 2
         x: 32
@@ -6094,6 +5968,132 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: door_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69156fdc612459540a4b2588905d1a32
+      internalID: 627552569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_5
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183d666ccc6990748832c70dcd8babee
+      internalID: 1307164765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371e726d058382c439c13e5b3785e113
+      internalID: -1859012682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bf6bfb319c4e94eb278fe5577cff88
+      internalID: 2114522903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a79309760c29084d97062ce0d26c137
+      internalID: 1653937239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8b8a3c3db01a8449a2dee6f0928485
+      internalID: -1943070009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -6122,7 +6122,6 @@ TextureImporter:
       Atlas_113: 168630891
       Atlas_114: -1304532251
       Atlas_116: 520761508
-      Atlas_117: 591944625
       Atlas_118: 1928487206
       Atlas_119: 1445426651
       Atlas_120: -1534864343
@@ -6157,7 +6156,6 @@ TextureImporter:
       Atlas_157: 1230536280
       Atlas_158: 627678320
       Atlas_159: -1756165173
-      Atlas_16: -315274558
       Atlas_160: 625556730
       Atlas_161: 530700437
       Atlas_162: 1564987545
@@ -6165,7 +6163,6 @@ TextureImporter:
       Atlas_164: 103333403
       Atlas_165: 548444217
       Atlas_166: 301714948
-      Atlas_17: 855740349
       Atlas_171: -847418274
       Atlas_174: -193142304
       Atlas_175: 2134126513
@@ -6173,7 +6170,6 @@ TextureImporter:
       Atlas_177: -415605160
       Atlas_178: -1697063101
       Atlas_179: 642412079
-      Atlas_18: -1742145472
       Atlas_180: 107840892
       Atlas_181: -162606809
       Atlas_182: 123128739
@@ -6184,14 +6180,12 @@ TextureImporter:
       Atlas_187: 706587290
       Atlas_188: -1369443060
       Atlas_189: -1271236614
-      Atlas_19: 9490731
       Atlas_190: -1005998715
       Atlas_191: -368213936
       Atlas_192: 1009845398
       Atlas_197: -1109401537
       Atlas_198: 2096807224
       Atlas_199: -2509941
-      Atlas_20: 2065326949
       Atlas_200: 1541851392
       Atlas_201: 1239380365
       Atlas_202: -856697113
@@ -6291,18 +6285,7 @@ TextureImporter:
       Atlas_33: 1173801067
       Atlas_34: 2116881434
       Atlas_35: -104658728
-      Atlas_37: -373426970
-      Atlas_38: -1464035460
-      Atlas_39: -2092009425
       Atlas_4: 2112810822
-      Atlas_40: -330673346
-      Atlas_41: -524877395
-      Atlas_42: -769971668
-      Atlas_43: -740483518
-      Atlas_44: 111407093
-      Atlas_45: -417584432
-      Atlas_46: -1315246057
-      Atlas_47: 2114522903
       Atlas_5: -2125662015
       Atlas_51: 284112320
       Atlas_52: -158659394
@@ -6315,17 +6298,7 @@ TextureImporter:
       Atlas_60: 86117240
       Atlas_61: 326755804
       Atlas_62: 177676632
-      Atlas_64: 441154873
-      Atlas_65: 947959913
-      Atlas_66: -1927065139
-      Atlas_67: 1753458432
-      Atlas_68: -163925493
-      Atlas_69: 627552569
       Atlas_7: 370617238
-      Atlas_70: -1859012682
-      Atlas_71: -461212037
-      Atlas_72: -1943070009
-      Atlas_73: 1653937239
       Atlas_75: -891641451
       Atlas_77: -1271645724
       Atlas_78: -29919740
@@ -6340,12 +6313,7 @@ TextureImporter:
       Atlas_87: -331941597
       Atlas_88: -1744177628
       Atlas_89: 1720739261
-      Atlas_90: 342552087
-      Atlas_91: 1943126328
-      Atlas_92: -344713554
-      Atlas_93: -383678409
       Atlas_95: -693842738
-      Atlas_96: 175481245
       Atlas_97: -1283525437
       Atlas_98: -213793853
       Atlas_99: 1694592806
@@ -6359,6 +6327,18 @@ TextureImporter:
       crate_2: 1118860512
       crate_3: 114735160
       crate_4: -1661637620
+      door_0: -769971668
+      door_1: -163925493
+      door_10: -1943070009
+      door_11: 1653937239
+      door_2: -417584432
+      door_3: -461212037
+      door_4: -740483518
+      door_5: 1307164765
+      door_6: -1154838172
+      door_7: -1859012682
+      door_8: -1315246057
+      door_9: 2114522903
       enemy_1: -511132647
       floor_0: 136423297
       floor_1: -1867043762
@@ -6376,6 +6356,8 @@ TextureImporter:
       healingFountain_0: 1077077233
       healingFountain_1: -1529998400
       healingFountain_2: 3247579
+      manaFountain_1: 175481245
+      manaFountain_2: 591944625
       pillar_1: 1513168237
       pillar_2: 1960641447
       pillar_3: 1460543118
@@ -6415,6 +6397,24 @@ TextureImporter:
       wall_7: -334478595
       wall_8: 1621058666
       wall_9: 230360422
+      wall_outer_0: -315274558
+      wall_outer_1: -373426970
+      wall_outer_10: -330673346
+      wall_outer_11: -1927065139
+      wall_outer_12: 2065326949
+      wall_outer_13: -524877395
+      wall_outer_14: 1753458432
+      wall_outer_15: -383678409
+      wall_outer_16: -344713554
+      wall_outer_17: 855740349
+      wall_outer_18: -1464035460
+      wall_outer_3: 441154873
+      wall_outer_4: 342552087
+      wall_outer_5: -1742145472
+      wall_outer_6: -2092009425
+      wall_outer_7: 947959913
+      wall_outer_8: 1943126328
+      wall_outer_9: 9490731
       weapon_0: 1509897613
       weapon_1: -1252399162
       weapon_10: -1963478542
