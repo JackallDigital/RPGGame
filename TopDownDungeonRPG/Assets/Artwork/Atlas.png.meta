@@ -4520,13 +4520,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_254
+      name: boss_0
       rect:
         serializedVersion: 2
         x: 160
-        y: 64
-        width: 16
-        height: 16
+        y: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4536,27 +4536,6 @@ TextureImporter:
       bones: []
       spriteID: 68d07d0d3ff1f874997c85df1c729b67
       internalID: -994123327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Atlas_255
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 137397114e4f8bf4da34e6613510bb10
-      internalID: 205334811
       vertices: []
       indices: 
       edges: []
@@ -4856,48 +4835,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_270
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6292cd1b68315b4ea229cb7401a9246
-      internalID: 390194506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Atlas_271
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9fa9d17bea5bebd489ef091e7136e296
-      internalID: 779908796
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Atlas_272
       rect:
         serializedVersion: 2
@@ -5024,7 +4961,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_278
+      name: boss_0_enemy
       rect:
         serializedVersion: 2
         x: 32
@@ -6232,7 +6169,6 @@ TextureImporter:
       Atlas_251: -1888633208
       Atlas_252: -1265773016
       Atlas_253: -1915032983
-      Atlas_254: -994123327
       Atlas_255: 205334811
       Atlas_256: 2099097337
       Atlas_259: 1549637520
@@ -6252,7 +6188,6 @@ TextureImporter:
       Atlas_275: -584105222
       Atlas_276: -100619825
       Atlas_277: 1098698590
-      Atlas_278: -2130046346
       Atlas_279: 2095135547
       Atlas_28: -506010469
       Atlas_280: -1387754835
@@ -6317,6 +6252,8 @@ TextureImporter:
       Atlas_97: -1283525437
       Atlas_98: -213793853
       Atlas_99: 1694592806
+      boss_0: -994123327
+      boss_0_enemy: -2130046346
       button_0: -555624735
       button_1: -1214723646
       button_2: 405915218
