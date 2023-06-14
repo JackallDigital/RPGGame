@@ -12,15 +12,16 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
             Destroy(player.gameObject);
             Destroy(floatingTextManager.gameObject);
+            Destroy(hud);
+            Destroy(menu);
+            Destroy(eventSystem);
             return;
         }
 
         //PlayerPrefs.DeleteAll();
-
-
         instance = this;
         SceneManager.sceneLoaded += LoadState;
-        DontDestroyOnLoad(gameObject);
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     //Resources for the game
@@ -29,6 +30,10 @@ public class GameManager : MonoBehaviour
     public List<int> weaponPrices = new List<int> { 100, 200, 300, 400, 500, 1000, 1200, 1400, 1600, 1800, 3000, 3500, 4000, 8000, 16000, 50000};
     public List<int> experienceTable;
     public List<string> keyInInventory;
+    public RectTransform hitpointBar;
+    public GameObject hud;
+    public GameObject menu;
+    public GameObject eventSystem;
 
     //References
     public Player player;
@@ -56,6 +61,13 @@ public class GameManager : MonoBehaviour
         }
 
         return false;
+    }
+
+    //Health Bar UI
+    public void OnHitpointChange() {
+        float ratio = (float)player.hitPoint / (float)player.maxHitPoint;
+
+        hitpointBar.localScale = new Vector3(1, ratio, 1);
     }
 
     //Experience System
@@ -90,14 +102,21 @@ public class GameManager : MonoBehaviour
         int currentLevel = GetCurrentLevel();
         experience += xp;
 
-        if(currentLevel <= GetCurrentLevel()) {
+        if(currentLevel < GetCurrentLevel()) {
             OnLevelUp();
         }
     }
 
     public void OnLevelUp() {
         player.OnLevelUp();
+        OnHitpointChange();
     }
+
+    //On scene loaded, player position
+    public void OnSceneLoaded(Scene s, LoadSceneMode mode) {
+        player.transform.position = GameObject.Find("SpawnPosition").transform.position;
+    }
+
 
     //Save state
     /*
@@ -119,7 +138,8 @@ public class GameManager : MonoBehaviour
 
     //Load state
     public void LoadState(Scene s, LoadSceneMode mode) {
-        Debug.Log("Load state");
+
+        SceneManager.sceneLoaded -= LoadState;
         //if we don't have a save state return
         if (!PlayerPrefs.HasKey("SaveState")) {
             return;
@@ -128,7 +148,6 @@ public class GameManager : MonoBehaviour
         string[] data = PlayerPrefs.GetString("SaveState").Split('|');
 
         //TODO Change player skin
-
         coins = int.Parse(data[1]);
 
         //Experience
@@ -138,8 +157,5 @@ public class GameManager : MonoBehaviour
 
         //Weapon
         weapon.SetWeaponLevel(int.Parse(data[3]));
-
-        player.transform.position = GameObject.Find("SpawnPosition").transform.position;
-
     }
 }

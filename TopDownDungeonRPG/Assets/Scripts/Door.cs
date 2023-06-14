@@ -27,9 +27,8 @@ public class Door : Collidable
                 gameObject.transform.GetChild(2).gameObject.layer = 0;
 
                 //Debug.Log("Door collided with: " + GameManager.instance.keyInInventory.Contains(keyThatOpensTheDoor));
-                GameManager.instance.ShowText(keyThatOpensTheDoor + " used!", 20, Color.white, transform.position, Vector3.up * 30, 1.5f);
+                GameManager.instance.ShowText(keyThatOpensTheDoor + " used!", 20, Color.white, transform.position, Vector3.up * 30, 1.2f);
                 GameManager.instance.keyInInventory.Remove(keyThatOpensTheDoor);
-
             }
         }
     }

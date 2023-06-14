@@ -10,7 +10,7 @@ public class Key : Collectable
             collected = true;
 
             GameManager.instance.keyInInventory.Add(gameObject.name);
-            GameManager.instance.ShowText(gameObject.name+" found!", 20, Color.yellow, transform.position, Vector3.up * 30, 1.5f);
+            GameManager.instance.ShowText(gameObject.name+" found!", 20, Color.yellow, transform.position, Vector3.up * 30, 1.0f);
             Destroy(gameObject);
         }
     }

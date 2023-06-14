@@ -10,8 +10,11 @@ public class Player : Mover {
     protected override void Start() {
         base.Start();
         spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
-        DontDestroyOnLoad(gameObject);
+    protected override void ReceiveDamage(Damage dmg) {
+        base.ReceiveDamage(dmg);
+        GameManager.instance.OnHitpointChange();
     }
 
     private void FixedUpdate() {
@@ -34,5 +37,19 @@ public class Player : Mover {
         for(int i = 0; i < level; i++) {
             OnLevelUp();
         }
+    }
+
+    public void Heal(int healingAmount) {
+        if(hitPoint == maxHitPoint) {
+            return;
+        }
+
+        hitPoint += healingAmount;
+        if(hitPoint > maxHitPoint) {
+            hitPoint = maxHitPoint;
+        }
+
+        GameManager.instance.ShowText("+"+healingAmount.ToString()+" hp", 25, Color.green, transform.position, Vector3.up*30, 1f);
+        GameManager.instance.OnHitpointChange();
     }
 }
