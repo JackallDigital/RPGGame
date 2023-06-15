@@ -12,6 +12,19 @@ public class Door : Collidable
     public Sprite BottomRight;
 
     public string keyThatOpensTheDoor;
+    private bool unlocked = false;
+
+
+    public string message;
+    public int fontSize;
+
+    private float cooldown = 4.0f;
+    private float lastMessage;
+
+    protected override void Start() {
+        base.Start();
+        lastMessage = -cooldown;
+    }
 
     protected override void OnCollide(Collider2D collider) {
         if (collider.name == "Player") {
@@ -29,6 +42,14 @@ public class Door : Collidable
                 //Debug.Log("Door collided with: " + GameManager.instance.keyInInventory.Contains(keyThatOpensTheDoor));
                 GameManager.instance.ShowText(keyThatOpensTheDoor + " used!", 20, Color.white, transform.position, Vector3.up * 30, 1.2f);
                 GameManager.instance.keyInInventory.Remove(keyThatOpensTheDoor);
+
+                unlocked = true;
+            }
+            else if(!unlocked){
+                if (Time.time - lastMessage > cooldown) {
+                    lastMessage = Time.time;
+                    GameManager.instance.ShowText(message, fontSize, Color.white, transform.position + new Vector3(0, 0.16f, 0), Vector3.zero, cooldown);
+                }
             }
         }
     }
