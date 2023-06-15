@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
             Destroy(floatingTextManager.gameObject);
             Destroy(hud);
             Destroy(menu);
-            Destroy(eventSystem);
+            //Destroy(eventSystem);
             return;
         }
 
@@ -30,15 +30,17 @@ public class GameManager : MonoBehaviour
     public List<int> weaponPrices = new List<int> { 100, 200, 300, 400, 500, 1000, 1200, 1400, 1600, 1800, 3000, 3500, 4000, 8000, 16000, 50000};
     public List<int> experienceTable;
     public List<string> keyInInventory;
-    public RectTransform hitpointBar;
-    public GameObject hud;
-    public GameObject menu;
-    public GameObject eventSystem;
+    
 
     //References
     public Player player;
     public Weapon weapon;
     public FloatingTextManager floatingTextManager;
+    public RectTransform hitpointBar;
+    public Animator deathMenuAnimator;
+    public GameObject hud;
+    public GameObject menu;
+    public GameObject eventSystem;
 
     //Logic
     public int coins;
@@ -117,6 +119,17 @@ public class GameManager : MonoBehaviour
         player.transform.position = GameObject.Find("SpawnPosition").transform.position;
     }
 
+    //Death Menu and Respawn
+    public void Respawn() {
+        deathMenuAnimator.SetTrigger("Hide");
+
+        coins = 0;
+        experience = 0;
+        weapon.SetWeaponLevel(0);
+
+        SceneManager.LoadScene(0);
+        player.Respawn();
+    }
 
     //Save state
     /*

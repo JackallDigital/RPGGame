@@ -6,6 +6,7 @@ using UnityEngine;
 //[RequireComponent(typeof(BoxCollider2D))]
 public class Player : Mover {
     private SpriteRenderer spriteRenderer;
+    private bool isAlive = true;
 
     protected override void Start() {
         base.Start();
@@ -13,15 +14,24 @@ public class Player : Mover {
     }
 
     protected override void ReceiveDamage(Damage dmg) {
+        if (!isAlive)
+            return;
+
         base.ReceiveDamage(dmg);
         GameManager.instance.OnHitpointChange();
+    }
+
+    protected override void Death() {
+        isAlive = false;
+        GameManager.instance.deathMenuAnimator.SetTrigger("Show");
     }
 
     private void FixedUpdate() {
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
 
-        UpdateMotor(new Vector3 (x, y, 0));
+        if(isAlive)
+            UpdateMotor(new Vector3 (x, y, 0));
     }
 
     public void SwapSprite(int skinID) {
@@ -51,5 +61,18 @@ public class Player : Mover {
 
         GameManager.instance.ShowText("+"+healingAmount.ToString()+" hp", 25, Color.green, transform.position, Vector3.up*30, 1f);
         GameManager.instance.OnHitpointChange();
+    }
+
+    public void Respawn() {
+        isAlive = true;
+        //reset hp values back to starting values
+        hitPoint = 5;
+        maxHitPoint = 5;
+
+        Heal(maxHitPoint);
+
+        //we get pushed back when respawning if this is not added
+        lastDamageImmunityTime = Time.time; 
+        pushDirection = Vector3.zero;
     }
 }
