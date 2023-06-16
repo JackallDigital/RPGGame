@@ -14,11 +14,9 @@ public class GameManager : MonoBehaviour
             Destroy(floatingTextManager.gameObject);
             Destroy(hud);
             Destroy(menu);
-            //Destroy(eventSystem);
             return;
         }
 
-        //PlayerPrefs.DeleteAll();
         instance = this;
         SceneManager.sceneLoaded += LoadState;
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -27,7 +25,7 @@ public class GameManager : MonoBehaviour
     //Resources for the game
     public List<Sprite> playerSprites;
     public List<Sprite> weaponSprites;
-    public List<int> weaponPrices = new List<int> { 100, 200, 300, 400, 500, 1000, 1200, 1400, 1600, 1800, 3000, 3500, 4000, 8000, 16000, 50000};
+    public List<int> weaponPrices = new List<int> { 50, 100, 200, 400, 500, 1000, 1200, 1400, 1600, 1800, 3000, 3500, 4000, 8000, 16000, 50000};
     public List<int> experienceTable;
     public List<string> keyInInventory;
     

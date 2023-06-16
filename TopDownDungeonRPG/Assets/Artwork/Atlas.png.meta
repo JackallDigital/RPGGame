@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_3
+      name: wall_add_3
       rect:
         serializedVersion: 2
         x: 48
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_4
+      name: wall_add_4
       rect:
         serializedVersion: 2
         x: 64
@@ -656,7 +656,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_25
+      name: wall_add_2
       rect:
         serializedVersion: 2
         x: 64
@@ -1055,7 +1055,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_52
+      name: wall_add_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1328,7 +1328,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_78
+      name: wall_add_0
       rect:
         serializedVersion: 2
         x: 64
@@ -3512,7 +3512,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_197
+      name: enemy_0
       rect:
         serializedVersion: 2
         x: 64
@@ -3953,7 +3953,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_219
+      name: enemy_2
       rect:
         serializedVersion: 2
         x: 80
@@ -4016,7 +4016,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_230
+      name: enemy_3
       rect:
         serializedVersion: 2
         x: 16
@@ -4373,7 +4373,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_247
+      name: enemy_4
       rect:
         serializedVersion: 2
         x: 48
@@ -4415,7 +4415,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_249
+      name: enemy_5
       rect:
         serializedVersion: 2
         x: 80
@@ -4625,7 +4625,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_260
+      name: enemy_6
       rect:
         serializedVersion: 2
         x: 0
@@ -4646,7 +4646,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_261
+      name: enemy_7
       rect:
         serializedVersion: 2
         x: 16
@@ -4667,7 +4667,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_262
+      name: enemy_8
       rect:
         serializedVersion: 2
         x: 32
@@ -4688,7 +4688,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_263
+      name: enemy_9
       rect:
         serializedVersion: 2
         x: 48
@@ -4730,7 +4730,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_265
+      name: enemy_10
       rect:
         serializedVersion: 2
         x: 80
@@ -6120,7 +6120,6 @@ TextureImporter:
       Atlas_190: -1005998715
       Atlas_191: -368213936
       Atlas_192: 1009845398
-      Atlas_197: -1109401537
       Atlas_198: 2096807224
       Atlas_199: -2509941
       Atlas_200: 1541851392
@@ -6141,7 +6140,6 @@ TextureImporter:
       Atlas_216: -247138053
       Atlas_217: -213255052
       Atlas_218: -2044915710
-      Atlas_219: 307567447
       Atlas_220: -311966095
       Atlas_221: -1193520273
       Atlas_222: -1532962584
@@ -6152,7 +6150,6 @@ TextureImporter:
       Atlas_227: 41513813
       Atlas_228: -1811315960
       Atlas_229: -1486890374
-      Atlas_230: -21516515
       Atlas_231: 1505414309
       Atlas_232: -172614045
       Atlas_233: 737842640
@@ -6161,10 +6158,7 @@ TextureImporter:
       Atlas_244: 734763414
       Atlas_245: -626497172
       Atlas_246: -1470973507
-      Atlas_247: 423811118
       Atlas_248: 1053906880
-      Atlas_249: 1227749941
-      Atlas_25: 2024187910
       Atlas_250: -758667475
       Atlas_251: -1888633208
       Atlas_252: -1265773016
@@ -6172,12 +6166,7 @@ TextureImporter:
       Atlas_255: 205334811
       Atlas_256: 2099097337
       Atlas_259: 1549637520
-      Atlas_260: 589733139
-      Atlas_261: 171273758
-      Atlas_262: -1167129200
-      Atlas_263: 1939761256
       Atlas_264: -308120443
-      Atlas_265: 1492103451
       Atlas_266: 1018191274
       Atlas_267: -220316486
       Atlas_268: -461242489
@@ -6205,7 +6194,6 @@ TextureImporter:
       Atlas_293: -717239525
       Atlas_294: -1560130257
       Atlas_298: -1745178583
-      Atlas_3: -1622518301
       Atlas_300: -376971193
       Atlas_301: 643858740
       Atlas_302: -405191269
@@ -6220,10 +6208,8 @@ TextureImporter:
       Atlas_33: 1173801067
       Atlas_34: 2116881434
       Atlas_35: -104658728
-      Atlas_4: 2112810822
       Atlas_5: -2125662015
       Atlas_51: 284112320
-      Atlas_52: -158659394
       Atlas_55: -1041221832
       Atlas_56: -457643672
       Atlas_57: 416301497
@@ -6236,7 +6222,6 @@ TextureImporter:
       Atlas_7: 370617238
       Atlas_75: -891641451
       Atlas_77: -1271645724
-      Atlas_78: -29919740
       Atlas_79: -585658782
       Atlas_8: 1187428192
       Atlas_81: -611158093
@@ -6276,7 +6261,17 @@ TextureImporter:
       door_7: -1859012682
       door_8: -1315246057
       door_9: 2114522903
+      enemy_0: -1109401537
       enemy_1: -511132647
+      enemy_10: 1492103451
+      enemy_2: 307567447
+      enemy_3: -21516515
+      enemy_4: 423811118
+      enemy_5: 1227749941
+      enemy_6: 589733139
+      enemy_7: 171273758
+      enemy_8: -1167129200
+      enemy_9: 1939761256
       floor_0: 136423297
       floor_1: -1867043762
       floor_10: -773709723
@@ -6334,6 +6329,11 @@ TextureImporter:
       wall_7: -334478595
       wall_8: 1621058666
       wall_9: 230360422
+      wall_add_0: -29919740
+      wall_add_1: -158659394
+      wall_add_2: 2024187910
+      wall_add_3: -1622518301
+      wall_add_4: 2112810822
       wall_outer_0: -315274558
       wall_outer_1: -373426970
       wall_outer_10: -330673346

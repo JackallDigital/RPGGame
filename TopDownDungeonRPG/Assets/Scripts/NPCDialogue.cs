@@ -20,14 +20,16 @@ public class NPCDialogue : Collidable
     }
 
     protected override void OnCollide(Collider2D collider) {
-        interracted = true;
-        if (!spawn.spawned) {
-            spawn.Spawn();
-        }
-            
-        if(Time.time - lastMessage > cooldown) {
-            lastMessage = Time.time;
-            GameManager.instance.ShowText(message, fontSize, Color.white, transform.position + new Vector3(0, 0.16f, 0), Vector3.zero, cooldown);
+        if (collider.name == "Player") {
+            interracted = true;
+            if (!spawn.spawned) {
+                spawn.Spawn();
+            }
+
+            if (Time.time - lastMessage > cooldown) {
+                lastMessage = Time.time;
+                GameManager.instance.ShowText(message, fontSize, Color.white, transform.position + new Vector3(0, 0.16f, 0), Vector3.zero, cooldown);
+            }
         }
     }
 }

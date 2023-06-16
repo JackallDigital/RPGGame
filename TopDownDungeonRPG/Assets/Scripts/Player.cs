@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 //[RequireComponent(typeof(BoxCollider2D))]
 public class Player : Mover {
@@ -74,5 +75,12 @@ public class Player : Mover {
         //we get pushed back when respawning if this is not added
         lastDamageImmunityTime = Time.time; 
         pushDirection = Vector3.zero;
+
+        StartCoroutine(waitForRespawnText());
+    }
+
+    IEnumerator waitForRespawnText() {
+        yield return new WaitForSeconds(0.1f);
+        GameManager.instance.ShowText("You'll do it<br>..this time!", 15, Color.white, GameObject.Find("OldManVain").transform.position+new Vector3(0,0.16f,0), Vector3.zero, 1.5f);
     }
 }

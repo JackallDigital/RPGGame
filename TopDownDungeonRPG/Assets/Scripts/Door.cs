@@ -29,17 +29,22 @@ public class Door : Collidable
     protected override void OnCollide(Collider2D collider) {
         if (collider.name == "Player") {
             if (GameManager.instance.keyInInventory.Contains(keyThatOpensTheDoor)) {
-                //replace closed door sprites to open door sprites
-                gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = TopLeft;
-                gameObject.transform.GetChild(1).GetComponent<SpriteRenderer>().sprite = BottomLeft;
-                gameObject.transform.GetChild(2).GetComponent<SpriteRenderer>().sprite = TopRight;
-                gameObject.transform.GetChild(3).GetComponent<SpriteRenderer>().sprite = BottomRight;
 
-                //remove blocking layer so we can move forward
-                gameObject.transform.GetChild(0).gameObject.layer = 0;
-                gameObject.transform.GetChild(2).gameObject.layer = 0;
+                if (gameObject.name != "Barricade") {
+                    //replace closed door sprites to open door sprites
+                    gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = TopLeft;
+                    gameObject.transform.GetChild(1).GetComponent<SpriteRenderer>().sprite = BottomLeft;
+                    gameObject.transform.GetChild(2).GetComponent<SpriteRenderer>().sprite = TopRight;
+                    gameObject.transform.GetChild(3).GetComponent<SpriteRenderer>().sprite = BottomRight;
 
-                //Debug.Log("Door collided with: " + GameManager.instance.keyInInventory.Contains(keyThatOpensTheDoor));
+                    //remove blocking layer so we can move forward
+                    gameObject.transform.GetChild(0).gameObject.layer = 0;
+                    gameObject.transform.GetChild(2).gameObject.layer = 0;
+                }
+                else {
+                    gameObject.SetActive(false);
+                }
+
                 GameManager.instance.ShowText(keyThatOpensTheDoor + " used!", 20, Color.white, transform.position, Vector3.up * 30, 1.2f);
                 GameManager.instance.keyInInventory.Remove(keyThatOpensTheDoor);
 
