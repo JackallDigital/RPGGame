@@ -6834,7 +6834,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1653380024
@@ -7867,6 +7867,7 @@ GameObject:
   - component: {fileID: 1943423428}
   - component: {fileID: 1943423427}
   - component: {fileID: 1943423429}
+  - component: {fileID: 1943423430}
   m_Layer: 0
   m_Name: weapon_0
   m_TagString: Untagged
@@ -7987,6 +7988,7 @@ MonoBehaviour:
   - 3
   - 3
   weaponLevel: 0
+  rb: {fileID: 0}
 --- !u!61 &1943423428
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8040,7 +8042,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943423424}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: bde98d6ecb1f24a4dbbdd6b6c91bca09, type: 2}
   m_CullingMode: 0
@@ -8052,6 +8054,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &1943423430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943423424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241466b0ca8768a4f85b48cefb614718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1124515449}
+  radius: 0.1
 --- !u!1001 &1960569544
 PrefabInstance:
   m_ObjectHideFlags: 0
