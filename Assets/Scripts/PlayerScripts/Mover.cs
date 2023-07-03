@@ -25,6 +25,7 @@ public abstract class Mover : Fighter
         //swap sprite direction - right and left
         if (moveDelta.x > 0) {
             transform.localScale = originalSize;
+            
         }
         else if (moveDelta.x < 0) {
             transform.localScale = Vector3.Scale(new Vector3(-1, 1, 1) , originalSize);
