@@ -36,6 +36,7 @@ public class Weapon : Collidable
                 Swing();
             }
         }
+
     }
 
     protected override void OnCollide(Collider2D collider) {
